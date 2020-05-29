@@ -167,9 +167,9 @@ class ReportCreator(object):
 		# create list of all files including paths
 		all_file_paths = [path.join(self.raw_data_dir, f) for f in self.all_raw_data]
 		months = [f for f in self.all_raw_data]
-
+		'''
 		self.portfolio_outputs[year][month]
 		self.portfolio_outputs[year][month]['average demand']
 		self.portfolio_outputs[year][month]['average demand per square foot']
 		self.portfolio_outputs[year][month]['total demand']
-		self.portfolio_outputs[year][month]['peak demand']
+		self.portfolio_outputs[year][month]['peak demand']'''
